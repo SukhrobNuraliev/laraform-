@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Buyurtma | Repair.uz</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/floating-labels.css" />
+    </head>
+    <body>
+        <form class="form-signin" method="POST" action="/">
+            <img
+                src="img/logo.jpg"
+                alt=""
+                style="width: 100%; margin-bottom: 4rem;"
+            />
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal">Mashinangiz Haqida</h1>
+            </div>
+
+            <div class="form-group">
+                <select name="yil" class="form-control form-control-lg">
+                    <option>Yil</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select name="marka" class="form-control form-control-lg">
+                    <option>Marka</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+            </div>
+
+            <div class="form-label-group">
+                <input
+                    name="probeg"
+                    type="text"
+                    class="form-control form-control-lg"
+                    placeholder="Probeg"
+                    required
+                    autofocus
+                />
+                <label>Probeg</label>
+            </div>
+
+            <div style="margin: 15rem;"></div>
+
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal">
+                    Hizmat Turini tanlang
+                </h1>
+            </div>
+
+            <div class="form-group">
+                <select class="form-control form-control-lg">
+                    <option>Hizmatlar</option>
+                    <option value="Moy Almashtirish"
+                        >Moy Almashtirish - 85,000</option
+                    >
+                    <option value="Motor Kamar almashtirish"
+                        >Motor Kamar almashtirish - 50,000</option
+                    >
+                    <option value="Yuvish">Yuvish - 25,000</option>
+                    <option value="Tormozni Almashtirish"
+                        >Tormozni Almashtirish - 98,000</option
+                    >
+                </select>
+            </div>
+            <div class="form-group">
+                <select class="form-control form-control-lg">
+                    <option>Hizmatlar</option>
+                    <option value="Moy Almashtirish"
+                        >Moy Almashtirish - 85,000</option
+                    >
+                    <option value="Motor Kamar almashtirish"
+                        >Motor Kamar almashtirish - 50,000</option
+                    >
+                    <option value="Yuvish">Yuvish - 25,000</option>
+                    <option value="Tormozni Almashtirish"
+                        >Tormozni Almashtirish - 98,000</option
+                    >
+                </select>
+            </div>
+            <div class="form-group">
+                <select class="form-control form-control-lg">
+                    <option>Hizmatlar</option>
+                    <option value="Moy Almashtirish"
+                        >Moy Almashtirish - 85,000</option
+                    >
+                    <option value="Motor Kamar almashtirish"
+                        >Motor Kamar almashtirish - 50,000</option
+                    >
+                    <option value="Yuvish">Yuvish - 25,000</option>
+                    <option value="Tormozni Almashtirish"
+                        >Tormozni Almashtirish - 98,000</option
+                    >
+                </select>
+            </div>
+
+            <div style="margin: 20rem;"></div>
+
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal">
+                    O'zingiz Haqida Ma'lumot
+                </h1>
+            </div>
+
+            <div class="form-label-group">
+                <input
+                    name="ism"
+                    type="text"
+                    class="form-control form-control-lg"
+                    placeholder="Ismingiz"
+                    required
+                    autofocus
+                />
+                <label>Ism Familiyangiz</label>
+            </div>
+            <div class="form-label-group">
+                <input
+                    name="telefon"
+                    type="phone"
+                    class="form-control form-control-lg"
+                    placeholder="Telefon Raqamingiz"
+                    required
+                    autofocus
+                />
+                <label>Telefon Raqamingiz</label>
+            </div>
+
+            <div style="margin: 2rem;"></div>
+            <h5>Iltimos, Buyurtma vaqtini ja joyini tanlang</h5>
+            <div style="margin: 2rem;"></div>
+
+            <div class="form-label-group">
+                <input
+                    name="kun"
+                    type="date"
+                    class="form-control form-control-lg"
+                    placeholder="Telefon Raqamingiz"
+                    required
+                    autofocus
+                />
+                <label>Kunni Tanlang</label>
+            </div>
+            <div class="form-label-group">
+                <input
+                    name="soat"
+                    type="time"
+                    class="form-control form-control-lg"
+                    placeholder="Telefon Raqamingiz"
+                    required
+                    autofocus
+                />
+                <label>Soatni Tanlang</label>
+            </div>
+            <a
+                class="btn btn-outline-success btn-block"
+                href="https://t.me/repairuz"
+                target="_blank"
+                >Telegramdan manzilni jo'natish</a
+            >
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input name="roziman" type="checkbox" value="remember-me" />
+                    men barcha shartlarga roziman.
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                Jo'natish
+            </button>
+            <p class="mt-5 mb-3 text-muted text-center">
+                &copy; Repair.uz | 2020
+            </p>
+        </form>
+    </body>
+</html>
